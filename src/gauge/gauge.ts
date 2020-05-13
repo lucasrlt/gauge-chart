@@ -317,7 +317,7 @@ export function labelOutline(
 
   // Fonts specification (responsive to chart size)
   rangeLabelFontSize = rangeLabelFontSize || Math.round(chartHeight * 0.18)
-  let realRangeFontSize = rangeLabelFontSize * 0.6 // counted empirically
+  let realRangeFontSize = rangeLabelFontSize // counted empirically
   let centralLabelFontSize = rangeLabelFontSize * 1.5
   let realCentralFontSize = centralLabelFontSize * 0.56
 
